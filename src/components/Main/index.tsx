@@ -7,16 +7,19 @@ export default function Main() {
   return (
     <S.Wrapper>
 
-      <S.Logo src="/img/logo_day.png" alt="Imagem de um átomo e React Avançado escrito ao lado." />
+      <S.Illustration src="/img/mother_2.png" alt="Ilustração simbolizando perguntas e respostas" />
 
-      <S.Title> Boilerplate Next.JS </S.Title>
+       <S.Description>
+        <p>Mães Empreendedoras de Atibaia e Região é um rede de mulheres da região bragantina que se uniram para trocar experiências, compartilhar conhecimentos e se ajudar a empreender.
+        </p>
+        <p>
+          A rede é formada por mulheres que trabalham com vendas diretas, artesanato, culinária, serviços, entre outros. A ideia é que as empreendedoras possam se ajudar a divulgar seus produtos e serviços, além de trocar experiências e conhecimentos.
+        </p>
 
-      <S.Description>
-        Este é um projeto simples para iniciar um projeto com Next.JS com TypeScript, Styled Components para uso na criação de interfaces e aplicativos web.
 
       </S.Description>
 
-      <S.Illustration src="/img/illustration.svg" alt="Uma montanha como caminho para a web" />
+
 
 
     </S.Wrapper>
