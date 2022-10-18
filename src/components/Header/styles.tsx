@@ -2,12 +2,14 @@ import styled from "styled-components"
 
 
 export const Wrapper = styled.div`
-  height: 24vh;
+  height: 22vh;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   align-content: flex-start;
   justify-content: flex-start;
+  z-index: 20;
   `
 export const Logo = styled.img`
   width: 100%;

@@ -8,9 +8,9 @@ height: 60rem;
 display: flex;
 flex-direction: row;
 text-align: start;
-align-items: center;
-justify-content: center;
-padding: 0 4rem;
+align-items: flex-start;
+justify-content: flex-start;
+
 `
 export const Logo = styled.img`
 width: 20rem;
